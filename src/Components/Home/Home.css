@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   background-image: url(https://s3-alpha-sig.figma.com/img/cb5f/1033/39077ee69e8376e2460acc7c5c0ae8e8?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N4k-6gOGMZFyDJMvfKGM2bA5UOC3uqqHB70lMMSEG1iNK~rBcvgM63OLoiHhIK34SNHrC6v5CiCc~hCvPoZEgA2LcQVOwXpWGvpAMridubxSpLJfwNlV3PkqLMhuLy-XD8DAamPOkmADq7hx4kUGuvksz2y8zosiD~bS7AhbdM4auj2wY60VDVUQJIBbFlknUJc8XDVnKYBB3OVbge0VF9RKjDlkFSp7rpNaBJhfUFcR8A8LRgLRozOQ1Xu~fkpLRDLNoCI8a1a1lg4tV4OuL44qUTySb0cjRvdXolA~eml5EdIqQ4df3BX90AIswMwWaf2qYTRwtmHgJcw-NNaA~A__);
-  background-size: cover;
+  background-size: 90px 90px;
 }
 
 .image-overlay {
@@ -14,7 +14,7 @@
   background: rgba(245, 234, 205, 0.6);
   display: flex;
   justify-content: space-between;
-  position: relative; /* Ensure children are positioned relative to this */
+  position: relative; 
 }
 
 .first-div {
@@ -55,62 +55,62 @@
   justify-content: center;
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .image {
-    height: 40vh; /* Adjust height for smaller screens */
-    background-size: cover;
+    height: 100vh; 
+    background-size: 90px 90px;
   }
 
   .image-overlay {
-    height: 40vh;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center align children */
+    height: 100vh;
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .first-div {
-    margin-top: 1rem; /* Reduce margin for smaller screens */
+    margin-top: 1rem; 
   }
 
   .second-div {
     width: 80%;
-    height: auto; /* Allow height to adjust based on content */
-    margin-top: 2rem; /* Adjust margin */
-    margin-left: 0; /* Center align on smaller screens */
-    position: relative; /* Remove absolute positioning */
+    height: auto; 
+    margin-top: 2rem; 
+    margin-left: 0; 
+    position: relative; 
     text-align: center;
   }
 
   .second-div h1 {
-    font-size: 24px; /* Adjust font size */
+    font-size: 24px; 
   }
 
   .second-div h2 {
-    font-size: 32px; /* Adjust font size */
-    line-height: 2.5rem; /* Adjust line height */
-    margin-top: 0.5rem; /* Adjust margin */
+    font-size: 32px; 
+    line-height: 2.5rem; 
+    margin-top: 0.5rem; 
   }
 
   .third-div {
     width: 90%;
-    height: auto; /* Allow height to adjust based on content */
-    border-radius: 15px; /* Adjust border radius for smaller screens */
-    margin-top: 1rem; /* Add margin top if needed */
+    height: auto; 
+    border-radius: 15px; 
+    margin-top: 1rem; 
   }
 }
 
 @media (max-width: 480px) {
   .second-div h1 {
-    font-size: 20px; /* Further adjust font size for extra small screens */
+    font-size: 20px; 
   }
 
   .second-div h2 {
-    font-size: 24px; /* Further adjust font size */
-    line-height: 2rem; /* Further adjust line height */
+    font-size: 24px; 
+    line-height: 2rem; 
   }
 
   .third-div {
-    width: 100%; /* Full width on extra small screens */
-    border-radius: 10px; /* Further adjust border radius */
+    width: 100%; 
+    border-radius: 10px; 
   }
 }

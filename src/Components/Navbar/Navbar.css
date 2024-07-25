@@ -6,6 +6,7 @@
     padding: 10px 20px;
     background: #F5EACD;
     position: relative;
+    z-index: 10;
 }
 
 .nav-left img {
