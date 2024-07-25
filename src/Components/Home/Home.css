@@ -1,0 +1,116 @@
+/* Base styles */
+.image {
+  width: 100%;
+  height: 61vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://s3-alpha-sig.figma.com/img/cb5f/1033/39077ee69e8376e2460acc7c5c0ae8e8?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N4k-6gOGMZFyDJMvfKGM2bA5UOC3uqqHB70lMMSEG1iNK~rBcvgM63OLoiHhIK34SNHrC6v5CiCc~hCvPoZEgA2LcQVOwXpWGvpAMridubxSpLJfwNlV3PkqLMhuLy-XD8DAamPOkmADq7hx4kUGuvksz2y8zosiD~bS7AhbdM4auj2wY60VDVUQJIBbFlknUJc8XDVnKYBB3OVbge0VF9RKjDlkFSp7rpNaBJhfUFcR8A8LRgLRozOQ1Xu~fkpLRDLNoCI8a1a1lg4tV4OuL44qUTySb0cjRvdXolA~eml5EdIqQ4df3BX90AIswMwWaf2qYTRwtmHgJcw-NNaA~A__);
+  background-size: cover;
+}
+
+.image-overlay {
+  width: 100%;
+  height: 61vh;
+  background: rgba(245, 234, 205, 0.6);
+  display: flex;
+  justify-content: space-between;
+  position: relative; /* Ensure children are positioned relative to this */
+}
+
+.first-div {
+  margin-top: 3rem;
+}
+
+.second-div {
+  width: 33vw;
+  height: 38vh;
+  text-align: center;
+  position: absolute;
+  z-index: 9;
+  margin-top: 8rem;
+  margin-left: 33rem;
+}
+
+.second-div h1 {
+  font-size: 40px;
+  font-family: cursive;
+  letter-spacing: 1.5px;
+}
+
+.second-div h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-family: "Font Awesome 6 Free";
+  line-height: 4rem;
+  letter-spacing: 0.3rem;
+  margin-top: 1rem;
+}
+
+.third-div {
+  width: 36vw;
+  height: 61vh;
+  background: #d0a8a8;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .image {
+    height: 40vh; /* Adjust height for smaller screens */
+    background-size: cover;
+  }
+
+  .image-overlay {
+    height: 40vh;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align children */
+  }
+
+  .first-div {
+    margin-top: 1rem; /* Reduce margin for smaller screens */
+  }
+
+  .second-div {
+    width: 80%;
+    height: auto; /* Allow height to adjust based on content */
+    margin-top: 2rem; /* Adjust margin */
+    margin-left: 0; /* Center align on smaller screens */
+    position: relative; /* Remove absolute positioning */
+    text-align: center;
+  }
+
+  .second-div h1 {
+    font-size: 24px; /* Adjust font size */
+  }
+
+  .second-div h2 {
+    font-size: 32px; /* Adjust font size */
+    line-height: 2.5rem; /* Adjust line height */
+    margin-top: 0.5rem; /* Adjust margin */
+  }
+
+  .third-div {
+    width: 90%;
+    height: auto; /* Allow height to adjust based on content */
+    border-radius: 15px; /* Adjust border radius for smaller screens */
+    margin-top: 1rem; /* Add margin top if needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .second-div h1 {
+    font-size: 20px; /* Further adjust font size for extra small screens */
+  }
+
+  .second-div h2 {
+    font-size: 24px; /* Further adjust font size */
+    line-height: 2rem; /* Further adjust line height */
+  }
+
+  .third-div {
+    width: 100%; /* Full width on extra small screens */
+    border-radius: 10px; /* Further adjust border radius */
+  }
+}
