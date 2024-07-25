@@ -1,0 +1,91 @@
+.w-wrapper {
+  width: 100%;
+  height: 60vh;
+  background-color: #b86e6e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.box-1 {
+  font-size: 30px;
+  font-family: cursive;
+  color: black;
+}
+.box-2 {
+  width: 23vw;
+  height: 46vh;
+  background: #f5eacd;
+  border-radius: 30px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cat {
+  width: 15vw;
+  height: 27vh;
+  background-image: url(https://s3-alpha-sig.figma.com/img/0889/d1de/2945347a909a23f5f74c597a2edb4ce7?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ldvmc2zBQ9FuEpmnal6KJV2Y-v4MENo6LDVgeiiTwP9p-JsUxYRz5bA56VMpQ9biqLDXPRUJ3z1TiRNu3uOUsJBo87ZQIJnAy9h2y2KydPhpBfG97nMG0GghzcIBoB17BSTa7gRrTtcIKFKl16pXb2pA5J-xuW7T3-u-hsIHzmMd2Kr-phMbHezL4vqTgkhVPUFq~BJTLoq~vT~mmQALP6Wp3Fbf2Fzek21~vbDaIoYpzQ3k8lmEPQWzQwbnngFeOlt3apBebxmoTOXUjU6VjjiTmNU6NrqZgsRkn6bsJrgGz4BujlnCNP8fPOCF1szC6Njw24TcXUdPMtQciJA45g__);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.box-2 p {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding-bottom: 12px;
+  color: black;
+}
+.btn {
+  width: 11vw;
+  height: 6vh;
+  border-radius: 20px;
+  background-color: #bd282b;
+  border: none;
+  color: white;
+  font-family: "Raleway";
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.inner-box1,
+.inner-box2 {
+  width: 38vw;
+  height: 23vh;
+  background: #f5eacd;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cat-2 {
+  width: 9vw;
+  height: 17vh;
+  background-color: #bd282b;
+  background-image: url(https://s3-alpha-sig.figma.com/img/cae5/b660/b1fd6789b208cb2a0182bbb4315f5e0a?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FSFkuFNHY2dbKGVpQLv~0eUPWZDsk0c2GGhaNKVsONsp--gtRQbKA2UrNtD3KkhWcp1OpxGtWiR1lcLGBhmnDOvDivNPuV9RWQ2jpfN5VgMsaP~mkkCMv4JnY2GeFGjbNE1vWGEmqILl8AG05qgchnPsWGP3wKEbbsZpRKruETdmwugCQoE-ou7x1JxhNwG3PVRjVlQSyMKkPkLKBAdQIwnTJqO7es2JbaGYq63~Lx1h5z5jJylIY9M2JFkiTFftPT7-MaUdV9561bRUbCYAShYl2twyrsJMP-S4kCnm~ftpd9av5beX0NcIVOroVewZ2tRHs4WNNQd9PUnTZypyPQ__);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+.cat-3 {
+  width: 21vw;
+  height: 14vh;
+  text-align: center;
+}
+.cat-3 p {
+  font-family: "Raleway";
+  font-weight: 500;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  line-height: 16px;
+}
+.cat-4 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/0ba3/ec86/172f4c8c1f284879f48bf654390b1f4c?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UcJUsljPj~kXuWEhsmiQgXQErLpe9z-dCp~M9QhG7HV1aGRCuHYfXMj0oaBstxCsAkjssh1sSCgnMm~YpOzr1nax-Cm4bryEOM6ttJkxVUCrP8Mhzg2rCvXXYdJRm51I7N-9sxaiUf7pvGs1sCS50Qf~0p9AQ4GYJiWb7AAiTg~KOFejGNB7XHSKxDIlvR6o10nVDJ-Um8vejwbBgpEUQuHK6v~cYqngNLxN7qsgRQfszXmzvYI5xqNAktpiFZz9SeqX5a7TUB5TuhtW9BFJEt461HKSIce9oFr4MaPYqL9DuvdLzD6JtiTXijlUYrHTcQ2x8hcI3lvAl~x5hctYVA__);
+}
+
