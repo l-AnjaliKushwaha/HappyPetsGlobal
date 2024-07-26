@@ -1,20 +1,21 @@
 .w-wrapper {
   width: 100%;
-  height: 60vh;
   background-color: #b86e6e;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  box-sizing: border-box;
 }
+
 .box-1 {
   font-size: 30px;
   font-family: cursive;
   color: black;
 }
+
 .box-2 {
   width: 23vw;
-  height: 46vh;
   background: #f5eacd;
   border-radius: 30px;
   border: 1px solid black;
@@ -23,6 +24,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box-3{
+ margin-right: 2rem;
+ margin-top: 1.6rem;
 }
 .cat {
   width: 15vw;
@@ -33,6 +40,7 @@
   border-radius: 30px;
   margin-bottom: 20px;
 }
+
 .box-2 p {
   font-family: "Raleway";
   font-size: 14px;
@@ -41,6 +49,7 @@
   padding-bottom: 12px;
   color: black;
 }
+
 .btn {
   width: 11vw;
   height: 6vh;
@@ -52,17 +61,20 @@
   font-size: 14px;
   letter-spacing: 1px;
 }
+
 .inner-box1,
 .inner-box2 {
   width: 38vw;
-  height: 23vh;
   background: #f5eacd;
   margin-bottom: 20px;
   border-radius: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
+
 .cat-2 {
   width: 9vw;
   height: 17vh;
@@ -72,11 +84,12 @@
   background-size: cover;
   border-radius: 30px;
 }
+
 .cat-3 {
   width: 21vw;
-  height: 14vh;
   text-align: center;
 }
+
 .cat-3 p {
   font-family: "Raleway";
   font-weight: 500;
@@ -85,7 +98,41 @@
   margin-bottom: 1rem;
   line-height: 16px;
 }
+
 .cat-4 {
   background-image: url(https://s3-alpha-sig.figma.com/img/0ba3/ec86/172f4c8c1f284879f48bf654390b1f4c?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UcJUsljPj~kXuWEhsmiQgXQErLpe9z-dCp~M9QhG7HV1aGRCuHYfXMj0oaBstxCsAkjssh1sSCgnMm~YpOzr1nax-Cm4bryEOM6ttJkxVUCrP8Mhzg2rCvXXYdJRm51I7N-9sxaiUf7pvGs1sCS50Qf~0p9AQ4GYJiWb7AAiTg~KOFejGNB7XHSKxDIlvR6o10nVDJ-Um8vejwbBgpEUQuHK6v~cYqngNLxN7qsgRQfszXmzvYI5xqNAktpiFZz9SeqX5a7TUB5TuhtW9BFJEt461HKSIce9oFr4MaPYqL9DuvdLzD6JtiTXijlUYrHTcQ2x8hcI3lvAl~x5hctYVA__);
 }
 
+@media (max-width: 768px) {
+  .w-wrapper {
+    position: relative;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .box-1 {
+    font-size: 20px;
+    text-align: center;
+    
+    margin-bottom: 20px;
+  }
+  .box-2, .inner-box1, .inner-box2 {
+    width: 90%;
+    /* margin-bottom: 20px; */
+  }
+
+  .cat, .cat-2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .cat-3 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+  }
+}
