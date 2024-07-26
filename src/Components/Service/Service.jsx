@@ -47,11 +47,48 @@ function Service() {
                   <button className="btn">Pet's Training</button>
                 </div>
                 <div className="div2-right">
-                  <img width={280} height={172}
+                  <img
+                    width={280}
+                    height={172}
                     src="https://s3-alpha-sig.figma.com/img/ea25/7a3f/c23588fc159cbddb135c82959392599f?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H5QZrGa4AgcgCgTv2kP53PwJbLHs7sxEepreiobh5izn1LFkURmoe7y~liCt8zcO2LzCWi~J620FtxFbXEdqONzl7VwxsNpxHkRC9pXBviGbadA-VSa5rAVFaeK3juW5RBUXM9vcl67lPdXPzTpmyXdcsOaHEATF~biq6cfOJw7KioYhPQHUC1ykZBJv-pAsjuzCMGYd0kZvmoA3PbveLQu5ak0LktBe2NrmXnjn3XeQWS9~ImiDlPGO~c3P68hD4p0FTayeyYQt3hmbdQ72N~D4unbKJyPF1lh3HW7sBp~l0EqoUSI9iIWtULCNFpm1yPIbnLeftTB5ZPGeJL6~Bw__"
                     alt=""
                   />
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>We Care About Your Pet’s Wellbeing</h1>
+        <div className="below-page">
+          <div className="b-left">
+            <div className="b-left-overlay">
+              <div className="b-left-img">
+                <img
+                  width={470}
+                  height={313}
+                  src="https://s3-alpha-sig.figma.com/img/badf/2088/0e0dfca13d9e399178685d4022bd1b0d?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IJ84PMoxS7yC1kZWuZqM2pXErWBj9EtcdEs-7V1kurB69gUThUqCCUOnCsg6ii8xX5VGX6Skhtoz2hBmsxPv~9fDzAOOWeb6KUMWG4BObXeYuxHe5tFVvxySDRhOt8NoFwTyYcVchtFqkNp~uc4B6Cq78DOCtL5vCMYpRXKs2WD~02Jk42uhMs9Dqji7lG0jZ6zqbrJEVjAXFCI6lPM3txpr8peAfBJFQEvuyaFA3lz7ShdZfXxBm01QUxJNu369nU7yZBg2L6Jtludfd8~pn5ZYrOcIj7JnECB5AOq89E-63XTwVy0O0Dy9Xy~mTuHe79iaWr5PguX4snt4bgCBMA__"
+                  alt=""
+                />
+              </div>
+              <div className="b-left-content">
+                <p>Expert veterinary care for your beloved pets</p>
+                <button className="btn">Pet's Health</button>
+              </div>
+            </div>
+          </div>
+          <div className="b-right">
+            <div className="b-right-overlay">
+              <div className="b-right-img">
+                <img
+                  width={470}
+                  height={313}
+                  src="https://s3-alpha-sig.figma.com/img/ed98/ab16/be42ab4e23cf080e8be96aa70a8b64bf?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KewGdXSS~tPUWBjVGmpKDhokBXTar2b~Da4tMUYKpwxSDhl5k54JjUSvoIh2OWI5wKGQFeHoUVrwngPZ-LDN7NbTrTckW5wC7sAbR95P2KtGnz6~XxCmZjcZpdpoT2cvLYcDCle-OobBu5Ad5cenJubZ2GDNayF9tuB1t0viy9vY21HdttLiIYt09LlBPvskEpCNkxwcgwoqnWvoBJqwrhO~4riNd-Nvln-xKk0LXvqy3AAP06wiqTEoRg~c6HabMEyKniS3ihbmO4Rboz8r5pTSVlKmgD6zV9sAXjoiw2DmhdhlktDOVvgF3w12vmkxYavfamzGmMeRt8BOT97QEA__"
+                  alt=""
+                />
+              </div>
+              <div className="b-right-content">
+                <p>Reliable medication to keep your pets healthy and happy</p>
+                <button className="btn">Pet's Health</button>
               </div>
             </div>
           </div>
