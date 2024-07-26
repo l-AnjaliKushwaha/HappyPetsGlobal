@@ -4,6 +4,8 @@ import "./index.css";
 import Home from "./Components/Home/Home.jsx";
 import WeDo from "./Components/WeDo/WeDo.jsx";
 import Vision from './Components/Vision/Vision.jsx'
+import Service from "./Components/Service/Service.jsx";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Home />
       <WeDo/>
       <Vision/>
+      <Service/>
     </>
   );
 }
