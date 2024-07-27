@@ -23,6 +23,7 @@
   background-position: center;
   background-size: cover;
   border-radius: 30px;
+  overflow: hidden;
 }
 .s-overlay {
   width: 38vw;
@@ -129,6 +130,7 @@
   background-position: center;
   background-size: cover;
   border-radius: 30px;
+  overflow: hidden;
 }
 .b-left-overlay,
 .b-right-overlay {
