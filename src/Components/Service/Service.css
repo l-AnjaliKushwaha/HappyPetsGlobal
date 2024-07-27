@@ -19,7 +19,7 @@
 .s-left {
   width: 38vw;
   height: 49vh;
-  background: url("https://s3-alpha-sig.figma.com/img/bff2/947e/bacc7db34ffc3f8900a28b2887dea812?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NXdIeNBEduG6FiGxRaWw6AClbdZx-ANApovGE4fZoKF3EKvyIIItlwEEbGHxJquBBF8aGjSB-ve9hTeiuGbT9oXeMw5RrczFUK8l1xUuwPy5Q6jzcSH3ebTWGQiKgAiHIA0quFjkgaMxvNBmYDxZgv8oqSg98qPWFg-a5YRsdIxH4D3qZwwMCVJSk0Sjyv2fG5BUTW7MTTcEglp4amC-5T-OrgeNCf6lVjZu1NsPky~5hOhPuL5Oczbda-p52J4mOrRRuRFQVqlTZcKdXUF1Pj5lKY8QvSKFSXyfNGCxXvqCiaYti5yhHwIwSJqSq~-kRBtXlZdaN~t~muKBpJNJOw__");
+  background: url('../../assets/Images/BacgroundImg2.png');
   background-position: center;
   background-size: cover;
   border-radius: 30px;
@@ -28,13 +28,13 @@
 .s-overlay {
   width: 38vw;
   height: 49vh;
-  background-color: #d5b1b1e2;
+  background-color: #d5b1b14e;
   border-radius: 30px;
 }
 .right-box {
   width: 47vw;
   height: 23vh;
-  background-image: url("https://s3-alpha-sig.figma.com/img/bff2/947e/bacc7db34ffc3f8900a28b2887dea812?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NXdIeNBEduG6FiGxRaWw6AClbdZx-ANApovGE4fZoKF3EKvyIIItlwEEbGHxJquBBF8aGjSB-ve9hTeiuGbT9oXeMw5RrczFUK8l1xUuwPy5Q6jzcSH3ebTWGQiKgAiHIA0quFjkgaMxvNBmYDxZgv8oqSg98qPWFg-a5YRsdIxH4D3qZwwMCVJSk0Sjyv2fG5BUTW7MTTcEglp4amC-5T-OrgeNCf6lVjZu1NsPky~5hOhPuL5Oczbda-p52J4mOrRRuRFQVqlTZcKdXUF1Pj5lKY8QvSKFSXyfNGCxXvqCiaYti5yhHwIwSJqSq~-kRBtXlZdaN~t~muKBpJNJOw__");
+  background-image: url('../../assets/Images/BacgroundImg2.png');
   background-position: center;
   background-size: cover;
   border-radius: 30px;
@@ -47,8 +47,11 @@
 .overlay-content {
   width: 300px;
   position: absolute;
-  left: 17rem;
-  padding: 0 20px 0 20px;
+  left: 18rem;
+  padding: 40px;
+}
+.overlay-content .btn{
+  margin-left: 1rem;
 }
 .btn {
   margin-left: 3rem;
@@ -70,7 +73,7 @@
 .r-div1-overlay {
   width: 47vw;
   height: 23vh;
-  background-color: #e0c6b3c6;
+  background-color: #e0c6b351;
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
@@ -79,7 +82,7 @@
 .r-div2-overlay {
   width: 47vw;
   height: 23vh;
-  background-color: #f6ecd2d7;
+  background-color: #f6ecd253;
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
@@ -98,7 +101,12 @@
 .div1-right,
 .div2-right > img {
   object-fit: cover;
+  object-position: center;
 }
+.div1-right{
+  margin-right: 0.2rem;
+}
+
 .div2-left p {
   font-family: "Raleway";
   font-size: 24px;
@@ -126,7 +134,7 @@
 .b-right {
   width: 42vw;
   height: 49vh;
-  background-image: url(https://s3-alpha-sig.figma.com/img/bff2/947e/bacc7db34ffc3f8900a28b2887dea812?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NXdIeNBEduG6FiGxRaWw6AClbdZx-ANApovGE4fZoKF3EKvyIIItlwEEbGHxJquBBF8aGjSB-ve9hTeiuGbT9oXeMw5RrczFUK8l1xUuwPy5Q6jzcSH3ebTWGQiKgAiHIA0quFjkgaMxvNBmYDxZgv8oqSg98qPWFg-a5YRsdIxH4D3qZwwMCVJSk0Sjyv2fG5BUTW7MTTcEglp4amC-5T-OrgeNCf6lVjZu1NsPky~5hOhPuL5Oczbda-p52J4mOrRRuRFQVqlTZcKdXUF1Pj5lKY8QvSKFSXyfNGCxXvqCiaYti5yhHwIwSJqSq~-kRBtXlZdaN~t~muKBpJNJOw__);
+  background-image: url('../../assets/Images/BacgroundImg2.png');
   background-position: center;
   background-size: cover;
   border-radius: 30px;
@@ -136,7 +144,7 @@
 .b-right-overlay {
   width: 42vw;
   height: 49vh;
-  background-color: #d5b1b1e2;
+  background-color: #d5b1b153;
   display: flex;
   justify-content: space-between;
   align-items: center;

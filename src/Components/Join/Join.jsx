@@ -1,4 +1,7 @@
 import React from 'react'
+import image1 from '../../assets/Images/image 1.png'
+import image2 from "../../assets/Images/image 2.png";
+import image3 from "../../assets/Images/image3.png";
 import './Join.css'
 
 export default function Join() {
@@ -9,13 +12,13 @@ export default function Join() {
           <img
             width={500}
             height={384}
-            src="https://s3-alpha-sig.figma.com/img/d63c/a435/32b0fad2bb0ed2f983f5be5555f87f3a?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AYhJGU6424JKOmLj2tI-cxVou05Tar6-REcj8beMhLKFxtpPTz~54j4K9kcY0Q98bnDNF~2oEZHxICEL49PZT9YNbVAwiVi8qlo9TWNCSu4QfPu5UDdeYdQZ5z14lDphGlZZVhmkRsbuocED128NdSA09DrTciUCUq6UeLeqo993V9fwQfuvic8BKECH~fAmRk68L5IsQ~fvGFdvdXut3VSDIk53~2iOEL3ZrjppemyhMBwUPObqzC3gCW6EIJ4WQdb3WcMef7fkVk~M4CMqLl-fiHnWIgN0KsmmICziF~KFDSKHHkLdoofi0v1TADHChpjR~eN6FhTIDg84SX-eCw__"
+            src={image1}
             alt=""
           />
           <img
             width={374}
             height={487}
-            src="https://s3-alpha-sig.figma.com/img/0b9b/d2f0/0862ebc0929999d3237363c34e6d03e1?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DRwJnhacCs28s6nrbQHGgm~sDRV3KqNO27yDh6SllaBNUJsOUwdmQl-17jo~nguMV84rrxxqNjzaziJLyfGWFJbQ5AZV84tWzFabsVGNm2oTgOVqqJRkthko7tPp4MWqQKdfqGnWlS~kmB-EoFPHRZZcY8VRIyB55LIIFqoyqKSp~Rw~s4P7vFjYvinjbCE7h1krzwgBg3UqNNkVciKRvi-KjHSWRMNN4XrkHjH9fhIyC~pnrDvKZhxwHVCNjQLnpfZzD56e6A1I0OGjbQubjOnmYyLaO8UZfOvtld2QvWvyd0P-kEcWKkhJXx8ycMdOGLuvgWpP~PY8wN3jgKUnmQ__"
+            src={image2}
             alt=""
           />
           <img src="" alt="" />
@@ -31,7 +34,7 @@ export default function Join() {
       <div className="j-middle">
         <div className="m-img">
           <img
-            src="https://s3-alpha-sig.figma.com/img/281b/17bc/38be5f7780db2d3a62fede061bce49f2?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EpyD3JGKn1o-bbZEKD8llCEkzDltR~yc23g4Ys0MllEEH06u7s-bEhO0zwvCxlEqbaNDqBxcxts-iGdr~caEx6-T-zuiem9eBDSBWilk9mISzJ3Av7CcYesdD7p54Ex2QVgsctU5GyRaR7rIayqJUaoyxtVKLzLLQR-zhhf6uNJ-MU8mbT0cjSpJApOJ9-3~3OuvrCTzrYGtcpAhBp6fZM0TxFLyK8Fr6u9IDPxRSNs9v0t0sY1D46rPfDfi9nhI~XitfDsbwWi4TNJ4J-pvpYiGmvRe8gY-RNGcbTWh9KQbSsFf3sd3ETsVynDZ7tv7TY6H0h4bIn3qNXhs5AwIgw__"
+            src={image3}
             alt=""
           />
         </div>

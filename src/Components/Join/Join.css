@@ -79,14 +79,14 @@ font-family: 'Raleway';
 .j-img :nth-child(1){
             position: absolute;
             bottom: 0rem;
-            left: -6rem;
+            left: 0rem;
             object-fit: cover;
             object-position: center;
 }
 .j-img :nth-child(2){
             position: absolute;
             bottom: 0rem;
-            left: 28rem;
+            left: 35rem;
             object-fit: cover;
             object-position: center;
 }
@@ -110,6 +110,6 @@ font-family: 'Raleway';
             object-position: center;
             position: absolute;
             bottom: 0rem;
-            left: 8rem;
+            left: 15rem;
             padding: 20px;
 }

@@ -34,7 +34,7 @@
 .cat {
   width: 15vw;
   height: 27vh;
-  background-image: url(https://s3-alpha-sig.figma.com/img/0889/d1de/2945347a909a23f5f74c597a2edb4ce7?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ldvmc2zBQ9FuEpmnal6KJV2Y-v4MENo6LDVgeiiTwP9p-JsUxYRz5bA56VMpQ9biqLDXPRUJ3z1TiRNu3uOUsJBo87ZQIJnAy9h2y2KydPhpBfG97nMG0GghzcIBoB17BSTa7gRrTtcIKFKl16pXb2pA5J-xuW7T3-u-hsIHzmMd2Kr-phMbHezL4vqTgkhVPUFq~BJTLoq~vT~mmQALP6Wp3Fbf2Fzek21~vbDaIoYpzQ3k8lmEPQWzQwbnngFeOlt3apBebxmoTOXUjU6VjjiTmNU6NrqZgsRkn6bsJrgGz4BujlnCNP8fPOCF1szC6Njw24TcXUdPMtQciJA45g__);
+  background-image: url('../../assets/Images/Page2Cat1.png');
   background-position: center;
   background-size: cover;
   border-radius: 30px;
@@ -60,6 +60,7 @@
   font-family: "Raleway";
   font-size: 14px;
   letter-spacing: 1px;
+  margin-right: 2rem;
 }
 
 .inner-box1,
@@ -79,7 +80,7 @@
   width: 9vw;
   height: 17vh;
   background-color: #bd282b;
-  background-image: url(https://s3-alpha-sig.figma.com/img/cae5/b660/b1fd6789b208cb2a0182bbb4315f5e0a?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FSFkuFNHY2dbKGVpQLv~0eUPWZDsk0c2GGhaNKVsONsp--gtRQbKA2UrNtD3KkhWcp1OpxGtWiR1lcLGBhmnDOvDivNPuV9RWQ2jpfN5VgMsaP~mkkCMv4JnY2GeFGjbNE1vWGEmqILl8AG05qgchnPsWGP3wKEbbsZpRKruETdmwugCQoE-ou7x1JxhNwG3PVRjVlQSyMKkPkLKBAdQIwnTJqO7es2JbaGYq63~Lx1h5z5jJylIY9M2JFkiTFftPT7-MaUdV9561bRUbCYAShYl2twyrsJMP-S4kCnm~ftpd9av5beX0NcIVOroVewZ2tRHs4WNNQd9PUnTZypyPQ__);
+  background-image: url('../../assets/Images/Page2Cat2.png');
   background-position: center;
   background-size: cover;
   border-radius: 30px;
@@ -100,7 +101,7 @@
 }
 
 .cat-4 {
-  background-image: url(https://s3-alpha-sig.figma.com/img/0ba3/ec86/172f4c8c1f284879f48bf654390b1f4c?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UcJUsljPj~kXuWEhsmiQgXQErLpe9z-dCp~M9QhG7HV1aGRCuHYfXMj0oaBstxCsAkjssh1sSCgnMm~YpOzr1nax-Cm4bryEOM6ttJkxVUCrP8Mhzg2rCvXXYdJRm51I7N-9sxaiUf7pvGs1sCS50Qf~0p9AQ4GYJiWb7AAiTg~KOFejGNB7XHSKxDIlvR6o10nVDJ-Um8vejwbBgpEUQuHK6v~cYqngNLxN7qsgRQfszXmzvYI5xqNAktpiFZz9SeqX5a7TUB5TuhtW9BFJEt461HKSIce9oFr4MaPYqL9DuvdLzD6JtiTXijlUYrHTcQ2x8hcI3lvAl~x5hctYVA__);
+  background-image: url('../../assets/Images/Page2Cat3.png');
 }
 
 @media (max-width: 768px) {
