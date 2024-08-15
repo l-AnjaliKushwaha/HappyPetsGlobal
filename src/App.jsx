@@ -1,24 +1,15 @@
-import React from "react";
-import NavBar from "./Components/Navbar/Navbar.jsx";
-import "./index.css";
-import Home from "./Components/Home/Home.jsx";
-import WeDo from "./Components/WeDo/WeDo.jsx";
-import Vision from './Components/Vision/Vision.jsx'
-import Service from "./Components/Service/Service.jsx";
-import Join from "./Components/Join/Join.jsx";
-
+import React from 'react'
+import Navbar from './components/Navbar'
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import Home from "./Home";
+// import About from "./AboutUs";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Home />
-      <WeDo/>
-      <Vision/>
-      <Service/>
-      <Join/>
+    <Navbar/>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
