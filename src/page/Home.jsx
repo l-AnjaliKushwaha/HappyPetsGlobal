@@ -1,10 +1,14 @@
 import React from 'react'
+import bgImg from "../assets/Images/BackgroundImg.png"
 
 function Home() {
   return (
+    <>
     <div>
-      Home page
+      <img src={bgImg} alt="" />
     </div>
+
+    </>
   )
 }
 
