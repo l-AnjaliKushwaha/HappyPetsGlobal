@@ -1,12 +1,11 @@
 import React from 'react'
-import './index.css';
 
-function App() {
+function Layout() {
   return (
     <div>
       
     </div>
-  );
+  )
 }
 
-export default App
+export default Layout
