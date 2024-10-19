@@ -1,31 +1,3 @@
-// import React from 'react'
-// import logo from '../../assets/Images/Page1Logo.png'
-
-// function Header() {
-//   return (
-//     <>
-//       <div className="Navbar flex justify-between items-center bg-[#F5EACD] p-5">
-//         <div className="logo">
-//           <img src={logo} alt="" />
-//         </div>
-//         <div className="nav">
-//           <li
-//             className="nav-items flex gap-20 text-[#BD282B] font-medium pr-5"
-//           >
-//             <a href="">Pet's Services</a>
-//             <a href="">Pet's Essentials</a>
-//             <a href="">Pet's Health</a>
-//             <a href="">About Us</a>
-//             <a href="">Join Us</a>
-//           </li>
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Header
-
 import React, { useState } from "react";
 import logo from "../../assets/Images/Page1Logo.png";
 
@@ -113,7 +85,29 @@ function Header() {
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-500 ease-in-out md:hidden`}
       >
-        <li className="nav-items flex flex-col items-center gap-8 text-[#BD282B] font-semibold text-xl">
+        {/* Back Button */}
+        <button
+          onClick={toggleMenu}
+          className="absolute top-5 left-5 text-[#BD282B] text-2xl"
+        >
+          <svg
+            className="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M15 19l-7-7 7-7"
+            ></path>
+          </svg>
+        </button>
+
+        {/* Mobile Menu Links */}
+        <li className="nav-items flex flex-col items-center gap-8 text-[#BD282B] font-semibold text-xl mt-16">
           <a
             href=""
             className="hover:text-[#F97316] transition-colors duration-300"
@@ -159,3 +153,4 @@ function Header() {
 }
 
 export default Header;
+
