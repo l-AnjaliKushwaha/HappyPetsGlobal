@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <>
-      <div className="Navbar w-full h-20 flex justify-between items-center bg-gradient-to-r from-[#F5EACD] to-[#FFD1C1] p-5 shadow-lg fixed">
+      <div className="Navbar w-full h-20 flex justify-between items-center bg-gradient-to-r from-[#F5EACD] to-[#FFD1C1] p-5 shadow-lg relative">
         {/* Logo */}
         <div className="logo">
           <img
