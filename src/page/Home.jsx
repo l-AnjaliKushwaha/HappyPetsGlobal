@@ -18,10 +18,8 @@ function Home() {
             <p>Give Your Pets</p>
             <h1>An Everyday Wagging Tail Experience </h1>
           </div>
-          <div
-            className="girl w-[30vw] h-auto bg-[#D0A8A8] rounded-xl"
-          >
-            <img src={girl} alt="" />
+          <div className="girl w-[35vw] bg-[#D0A8A8] rounded-3xl flex justify-center align-center">
+            <img src={girl} alt="Girl" className="object-contain" />
           </div>
         </div>
       </div>
@@ -30,5 +28,7 @@ function Home() {
 }
 
 export default Home
+
+
 
 
